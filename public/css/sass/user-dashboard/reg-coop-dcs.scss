@@ -1,0 +1,132 @@
+body .inline-input input.mtii-inline-input {
+    display: inline-block !important;
+    margin-left: 10px !important;
+    height: auto !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    border-bottom: 1px solid $color__brand !important;
+    padding: 5px !important;
+    height: auto;
+    width: 100%;
+}
+
+body .inline-input input.mtii-inline-input.main-form {
+    display: inline !important;
+    width: 100px;
+}
+
+.inline-input {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.input-label {
+    width: 150px;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.salute {
+    margin: 0;
+}
+
+#to-the-commissioner {
+    margin-top: 30px;
+}
+
+#dcs-form-body {
+    margin-top: 30px;
+}
+
+.form-heading {
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: underline;
+}
+
+body .inline-input input.mtii-inline-input.errored {
+    border-bottom: 1px solid red!important;
+    border-left: 1px solid red !important;
+}
+
+body .inline-input.flexed-child input.mtii-inline-input.errored {
+    border-right: 1px solid red;
+    border-top: 1px solid red;
+}
+
+body .inline-input.flexed-child input.mtii-inline-input {
+    margin-right: 10px;
+    border: 1px solid #00aa55;;
+}
+
+body .inline-input.flexed-child input.mtii-inline-input::placeholder {
+    font-size: 12px;
+    color: rgb(182, 182, 182);
+}
+
+body .inline-input input.mtii-inline-input.main-form.reason {
+    width: 300px;
+}
+
+span.as-placeholder {
+    font-weight: 700;
+    color: #000;
+    border-bottom: 1px solid #a5a5a5;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.main-form.mtii-select {
+    display: inline-block;
+}
+
+.main-form.mtii-select.errored {
+    border: 1px solid red;
+}
+
+@media screen and (min-width: 320px) {
+    body .inline-input input.mtii-inline-input.main-form {
+        width: 160px;
+    }
+}
+
+@media print {
+    .inline-input {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .input-label {
+        width: 60%;
+    }
+
+    span.as-placeholder {
+        border-bottom: 0;
+    }
+}
+
+
+@include small-medium-screen {
+    .form-heading {
+        font-size: 1.6em;
+        margin-bottom: 5px;
+    }
+}
+
+@include large-screen {
+    .top-right {
+        position: absolute;
+        right: -30px;
+        top: -35px;
+    }
+
+    #to-the-commissioner {
+        width: 50%;
+    }
+
+    #dcs-form-body {
+        margin-top: 200px;
+    }
+}

@@ -1,0 +1,133 @@
+.hide {
+    display: none !important;
+}
+
+.section-content {
+    padding-top: 80px;
+    width: 100%;
+    background: $color__lightgrey;
+}
+
+.content-wrapper {
+    min-height: 100vh;
+}
+
+.welcome-heading {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-bottom: 30px;
+    border-bottom: 1px solid $color__rule;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+
+.section-body {
+    padding: 20px 10px;
+}
+
+.section-heading {
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+.header-lower-rule {
+    border: 0;
+    width: 10%;
+    height: 4px;
+    background: $color__brand;
+    border-radius: 40px;
+    margin: 15px 0;
+}
+
+.dashboard-p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    max-width: 700px;
+}
+
+input[type="submit"].round-btn-mtii:focus,
+input[type="submit"].round-btn-mtii:active,
+input[type="submit"].round-btn-mtii:visited {
+    border-color: $color__brand;
+    color: $color__brand;
+}
+
+@include small-medium-screen {
+    .welcome-heading {
+        padding: 30px 60px;
+    }
+
+    .section-body {
+        padding: 60px;
+    }
+}
+
+.round-btn-mtii.small-btn {
+    margin: 0;
+    font-size: 16px;
+    padding: 0 10px;
+    background: #347ab3;
+}
+
+.round-btn-mtii.small-btn:hover {
+    background: #052b4b;
+}
+
+
+/**
+===================================
+CSS Loader
+===================================
+*/
+.lds-ring {
+        display: inline-block;
+        position: relative;
+        width: 80px;
+        height: 80px;
+}
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    margin: 8px;
+    border: 4px solid #919191;
+    border-radius: 50%;
+    -webkit-animation: lds-ring 1s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    animation: lds-ring 1s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #919191 transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    } 100% {
+        transform: rotate(360deg);
+    }
+}
+
+@include large-screen {
+    .welcome-heading {
+        font-size: 3em;
+        font-weight: 300;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #d2d2d2;
+        padding-top: 20px;
+    }
+
+    .section-content {
+        padding-left: 240px;
+        padding-top: 30px;
+    }
+}

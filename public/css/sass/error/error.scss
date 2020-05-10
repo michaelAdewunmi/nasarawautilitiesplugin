@@ -1,0 +1,24 @@
+.errored-text {
+    color: $color__danger;
+}
+
+.errored-bg {
+    background: $color__danger;
+}
+
+.notification-wrapper {
+    width: 100%;
+    max-width: 650px;
+    padding: 30px;
+    background: $color__white;
+    border-radius: 5px;
+    border: 1px solid #dedddd;
+}
+
+.err-notification {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px;
+    border: 1px solid #ffc1c1;
+    border-radius: 5px;
+}

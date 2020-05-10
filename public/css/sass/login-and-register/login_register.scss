@@ -1,0 +1,189 @@
+#login {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: $color__offwhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+}
+
+#login h1 {
+    display: none;
+}
+
+.wp-core-ui .button-primary {
+    background-color: $color__brand;
+    border-color: $color__brand;
+}
+
+.wp-core-ui .button, .wp-core-ui .button-secondary {
+    border-color: $color__brand;
+}
+
+.wp-core-ui .button-secondary .dashicons.dashicons-visibility,
+.wp-core-ui .button-secondary .dashicons.dashicons-hidden {
+    color: $color__brand;
+}
+
+.dashicons-visibility:before,
+.dashicons-hidden:before {
+    font-size: 16px;
+}
+
+.wp-core-ui .button-secondary:hover,
+.wp-core-ui .button.hover,
+.wp-core-ui .button:hover {
+    background: $color__offwhite;
+    border-color: $color__brand;
+}
+
+.wp-core-ui .button-primary.focus,
+.wp-core-ui .button-primary.hover,
+.wp-core-ui .button-primary:focus,
+.wp-core-ui .button-primary:hover {
+    background: $color__hover-main;
+    border-color: $color__hover-main;
+}
+
+input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus,
+input[type=datetime-local]:focus, input[type=datetime]:focus, input[type=email]:focus,
+input[type=month]:focus, input[type=number]:focus, input[type=password]:focus,
+input[type=radio]:focus, input[type=search]:focus, input[type=tel]:focus,
+input[type=text]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus,
+select:focus, textarea:focus {
+    border-color: $color__brand;
+    box-shadow: 0 0 0 1px $color__brand;
+    outline: 1px solid transparent;
+}
+
+.login #backtoblog a, .login #nav a {
+    text-decoration: none;
+    color: $color__brand;
+}
+
+.login #backtoblog a:hover, .login #nav a:hover, .login h1 a:hover {
+    color: $color__hover-main;
+}
+
+#loginform, #registerform, #resetpassform {
+    margin: 0;
+    border: 0;
+    box-shadow: none;
+    width: 70%;
+    background: $color__white;
+    padding: 40px;
+    border: 1px solid $color__lightgrey;
+}
+
+#loginform input, #loginform select,
+#registerform input, #loginform select,
+.login form .input, .login input[type=password],
+.login input[type=text] {
+    border-radius: 0;
+}
+
+.wp-core-ui select {
+    max-width: 100%;
+}
+
+.message.register {
+    font-size: 16px;
+    text-align: center;
+    background: $color__offwhite;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,.1);
+    border-left: 4px solid $color__brand;
+}
+
+.login .message, .login .success {
+    border-left: 4px solid $color__brand;
+}
+
+.login form .input,
+.login input[type=password],
+.login input[type=text] {
+    font-size: 18px !important;
+    border-radius: 0;
+}
+
+#reg-notifier {
+    margin-top: 60px;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-size: 1.2em;
+    background: $color__white;
+    padding: 20px;
+    width: 80%;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+#login_error, .message {
+    opacity: 0;
+}
+
+.message.reset-pass, .message, .login .message, .login #login_error {
+    width: 70%;
+    padding: 30px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@include small-medium-screen {
+    #login {
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+        min-height: calc(100vh - 0px);
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: $color__white;
+        transition: all 1s ease-in-out;
+    }
+
+    #loginform, #registerform, #lostpasswordform, #resetpassform  {
+        max-width: 600px;
+        background: $color__white;
+        transition: all 1s ease-in-out;
+        transform: translate3d(0px, -100px, 0px);
+        padding: 60px;
+        opacity: 0;
+        width: 75%;
+        border-top: 6px solid $color__brand;
+    }
+
+    #login form .flex-it {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #login form .flex-it p {
+        width: 49%;
+    }
+
+    .login #login_error {
+        border-left-color: $color__danger;
+    }
+
+    #reg-notifier, .message.reset-pass, .message, .login .message, .login #login_error {
+        width: 75%;
+        max-width: 600px;
+        padding: 30px 60px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    #reg-notifier {
+        font-size: 1.6em;
+    }
+
+    .wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large {
+        padding: 0 40px;
+    }
+}

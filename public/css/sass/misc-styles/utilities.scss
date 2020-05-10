@@ -1,0 +1,103 @@
+
+.round-btn-mtii {
+    padding: 10px 40px;
+    background: $color__brand;
+    border-radius: 30px;
+    color: $color__white;
+    margin-top: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.round-btn-mtii.blue-bg {
+    background: $color__blue;
+}
+
+.round-btn-mtii:hover {
+    background: $color__hover-main;
+    color: $color__white;
+}
+
+.centered {
+    text-align: center;
+}
+
+#notification {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -20;
+    background: rgba(0, 0, 0, 0.5);
+    min-width: 100%;
+    min-height: 100vh;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    justify-content: flex-start;
+    padding-top: 120px;
+}
+
+#notification.show-it {
+    display: flex;
+}
+
+.notifier {
+    width: 98%;
+    min-height: 30vh;
+    background: white;
+    max-width: 500px;
+    align-self: center;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transform: scaleY(0);
+    transition: all .3s ease-in-out;
+    transform-origin: left top 0px;
+    padding: 30px;
+}
+
+.main--btn.close-notify, #injectedbtn {
+    height: auto;
+    max-width: 200px;
+    align-self: center;
+    padding: 15px 30px;
+    background: #0086df;
+    color: #fff;
+    cursor: pointer;
+}
+
+#msg {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+#msg .success {
+    color: #00db00;
+}
+
+#msg .fail {
+    color: red;
+}
+
+#notification-btn  {
+    max-width: 280px;
+    margin: 0 auto;
+    padding: 5px 30px;
+    background: #00BCD4;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 560px) {
+    .notifier {
+        width: 70%;
+    }
+}

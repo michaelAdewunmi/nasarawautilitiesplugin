@@ -1,0 +1,179 @@
+/**
+=================================================================================================
+    User Profile Dashboard Page
+=================================================================================================
+*/
+#mobile-bar {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99999999999999999999999;
+    background: $color__brand;
+    padding: 20px 30px;
+    justify-content: space-between;
+}
+
+#user-section {
+    position: relative;
+}
+
+p.brand-link {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+#user-navigations-list {
+    padding-top: 68px
+}
+
+#mobile-bar .mobile-hamburger-toggle {
+    display: block;
+    align-self: flex-end;
+}
+
+#side-nav {
+    float: left;
+    background: $color__lightlydarktwo;
+    max-width: 240px;
+    min-height: 100vh;
+    color: $color__white;
+    position: absolute;
+    min-height: 100vh;
+    min-width: 240px;
+    transition: all .3s ease-out;
+    z-index: 99999;
+}
+
+.js-on #side-nav {
+    transform: translateX(-300px);
+}
+
+#side-nav.in-view {
+    transform: translateX(0);
+}
+
+.mobile-hamburger-toggle.nav-in-view .hamburger-box .hamburger-inner::before {
+    transform: rotate(45deg);
+}
+
+.mobile-hamburger-toggle.nav-in-view .hamburger-box .hamburger-inner::after {
+    transform: rotate(-45deg);
+    top: 6px;
+}
+
+.mobile-hamburger-toggle.nav-in-view .hamburger-inner {
+    background-color : transparent
+}
+.brand-link a {
+    color: $color__white;
+    font-size: 0.8em;
+}
+
+.nav-list {
+    padding: 10px 20px;
+}
+
+.nav-list a {
+    color: $color__white;
+}
+
+.nav-list.user-avatar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 7em;
+    background: $color__dark;
+    padding: 30px 0;
+    border-bottom: 8px solid rgba(237, 146, 125, 0.7);
+    font-family: "Quicksand";
+}
+
+.user-avatar p {
+    line-height: 0.7;
+    margin: 0;
+}
+
+.nav-list.active {
+    background: $color__lightlydark;
+}
+
+.icon {
+    margin-right: 20px;
+}
+
+.arrow-down {
+    position: absolute;
+    right: 0;
+    top: 28px;
+    width: 40px;
+    height: 40px;
+    line-height: 1.2em;
+    cursor: pointer;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    color: $color__rule;
+}
+
+.arrow-down:after {
+    content: "\f101";
+    display: inline-block;
+    font-family: Flaticon;
+    font-size: 16px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -o-transition: 0.4s;
+    -moz-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.children-in-view.arrow-down:after {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.children-nav {
+    margin-left: -20px;
+    font-size: 14px;
+    background: $color__dark;
+    margin-right: -20px;
+    padding-right: 20px;
+    padding-left: 50px;
+    padding: 20px 20px 20px 50px;
+}
+
+.nav-list.contains-children {
+    line-height: 3.2;
+    padding-bottom: 0;
+}
+
+.nav-list.contains-children.active li.active a {
+    color: $color__brand;
+    font-weight: 700;
+}
+
+@include large-screen {
+    #mobile-bar {
+        display: none;
+    }
+
+    .section-heading {
+        font-size: 42px;
+        line-height: 1.5;
+    }
+
+    #side-nav {
+        transform: translateX(0) !important;
+        position: relative;
+        margin-top: 0 !important;
+    }
+}
