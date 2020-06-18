@@ -10,22 +10,31 @@
  * @link       http://josbiz.com.ng
  * @since      1.0.0
  */
-require_once WP_CONTENT_DIR . '/plugins/mtii-utilities/public/class-mtii-utilities-task-performer.php';
 
+use MtiiUtilities\TasksPerformer;
 if (isset($_REQUEST['succ'])) :
+    $task_performer = new TasksPerformer();
     if ($_REQUEST['succ']=='gotopay') :
         if (isset($_REQUEST['invnum'])) : //NbdFf97gUuFE599xVk7ynQ%3D%3D
             $dc = $_REQUEST['invnum'];
+
             $invnum = openssl_decrypt($dc, "AES-128-ECB", "0jQkL&5S");
-            $payment_url =  get_option('live_or_staging')=='mtii_live' ? "https://nasarawaigr.com/c/make-payment/".$invnum
-                            : "http://uat.nasarawaigr.com/c/make-payment/".$invnum;
-            $invoice_url =  get_option('live_or_staging')=='mtii_live' ? "https://cbsapi.cashflow.ng/v2/ViewInvoice/".$invnum
-                            : "http://cashflow.parkwayprojects.xyz/v2/ViewInvoice/".$invnum;
+            $payment_url =  $task_performer->payment_url."/".$invnum;
+            $invoice_url =  $task_performer->invoice_url."/".$invnum;
             ?>
             <div class="section-body">
+            <div id="notification">
+                <div class="notifier dlarge">
+                    <div id="msg"></div>
+                    <div id="notification-btn" class="mkinnig-rounded-btn close-notify">Close Notification</div>
+                </div>
+            </div>
                 <h2 class="section-heading">Success!</h2>
                 <hr class="header-lower-rule" />
                 <div class="notification-wrapper">
+                    <?php
+                    $inv_num_enc = urlencode(openssl_encrypt($invnum, "AES-128-ECB", "X340&2&230rTHJ34"));
+                    ?>
                     <p>
                         Your Invoice Generation was successful. Please click the link below to proceed
                         to the payment page. You can click the blue button to print the Invoice on a new page
@@ -38,6 +47,10 @@ if (isset($_REQUEST['succ'])) :
                     <a class="round-btn-mtii" target="_blank"
                         href="<?php echo $payment_url; ?>">
                         Proceed to Payment
+                    </a>
+                    <a id="go-reg" data-orgsource="<?php echo $inv_num_enc; ?>"
+                        data-thenonce="<?php echo wp_create_nonce('ajax-payment-verify-nonce') ?>"
+                        class="round-btn-mtii" href="<?php echo site_url().'?do=reg';?>">Proceed to Registration
                     </a>
                 </div>
             </div>
@@ -55,8 +68,6 @@ if (isset($_REQUEST['succ'])) :
         <?php endif; ?>
     <?php else :
         echo "<h1>We are here</h1>";
-        $task_performer = new Mtii_Utilities_Tasks_Performer();
-
         $payer_message = 'Hello Demilade Young,<br /><br />'.
         'You Have successfully generated an Invoice for the Fresh Cooperative Registration payment'.
         '. Your Invoice Number is <strong>10034897239.</strong> <br /><br />'.

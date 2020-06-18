@@ -1,0 +1,10 @@
+.edit-option {
+    border-radius: 5px;
+    padding: 5px 20px;
+    background: #9b9b00;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}

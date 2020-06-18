@@ -1,0 +1,384 @@
+2045
+1
+{"invoice_number":"1000135078","request_reference":"11IFPAaTti","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-18","invoice_expires":"2021-06-18T00:00:00Z","invoice_status":"","connected_org":"","invoice_id":"24"}
+{"invoice_id":"24","invoice_number":"1000135078","request_reference":"11IFPAaTti","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2020-06-18","invoice_expires":"2021-06-18 00:00:00","invoice_status":"","connected_org":"","start_use":"0000-00-00"}
+2039
+1
+{"invoice_number":"1000134774","request_reference":"DGFC05rY2y","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-05-13","invoice_expires":"2020-05-12T00:00:00Z","invoice_status":"expired","connected_org":"Badass Money Makers of Nigeria","invoice_id":"23"}
+{"invoice_id":"23","invoice_number":"1000134774","request_reference":"DGFC05rY2y","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2019-05-13","invoice_expires":"2020-05-12 00:00:00","invoice_status":"expired","connected_org":"Badass Money Makers of Nigeria","start_use":"0000-00-00"}
+2037
+1
+{"invoice_number":"1000134773","request_reference":"gXYgMsu1th","invoice_category":"Business Premise","invoice_sub_category":"used-bp-renewal","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-14","invoice_expires":"2021-06-14T00:00:00Z","invoice_status":"active","connected_org":"MONEY MAKERS BUSINESS INCORPORATION","invoice_id":"22"}
+{"invoice_id":"22","invoice_number":"1000134773","request_reference":"gXYgMsu1th","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Business Premise","invoice_sub_category":"used-bp-renewal","payment_date":"2020-06-14","invoice_expires":"2021-06-14 00:00:00","invoice_status":"active","connected_org":"MONEY MAKERS BUSINESS INCORPORATION","start_use":"0000-00-00"}
+2033
+1
+{"invoice_number":"1000134771","request_reference":"qZiaJ3NQwd","invoice_category":"Business Premise","invoice_sub_category":"renewal","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-04-12","invoice_expires":"2020-04-11T00:00:00Z","invoice_status":"expired","connected_org":"","invoice_id":"21"}
+{"invoice_id":"21","invoice_number":"1000134771","request_reference":"qZiaJ3NQwd","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Business Premise","invoice_sub_category":"renewal","payment_date":"2019-04-12","invoice_expires":"2020-04-11 00:00:00","invoice_status":"expired","connected_org":"","start_use":"0000-00-00"}
+2030
+1
+{"invoice_number":"1000134690","request_reference":"5S7KfFQlw6","invoice_category":"NGOs and CBOs","invoice_sub_category":"legal-search","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-10","invoice_expires":"2021-06-10T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"20"}
+{"invoice_id":"20","invoice_number":"1000134690","request_reference":"5S7KfFQlw6","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"legal-search","payment_date":"2020-06-10","invoice_expires":"2021-06-10 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}
+2028
+1
+{"invoice_number":"1000134686","request_reference":"CgaBt1px55","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-legal-search","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-10","invoice_expires":"2021-06-10T00:00:00Z","invoice_status":"active","connected_org":"The Folks making Money","invoice_id":"19"}
+{"invoice_id":"19","invoice_number":"1000134686","request_reference":"CgaBt1px55","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-legal-search","payment_date":"2020-06-10","invoice_expires":"2021-06-10 00:00:00","invoice_status":"active","connected_org":"The Folks making Money","start_use":"2020-06-10"}
+2024
+1
+{"invoice_number":"1000134525","request_reference":"1PqdLDg4I2","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-ngo-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-08","invoice_expires":"2021-06-08T00:00:00Z","invoice_status":"active","connected_org":"Money Makers NGO","invoice_id":"18"}
+{"invoice_id":"18","invoice_number":"1000134525","request_reference":"1PqdLDg4I2","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-ngo-recertification","payment_date":"2020-06-08","invoice_expires":"2021-06-08 00:00:00","invoice_status":"active","connected_org":"Money Makers NGO","start_use":"2020-06-08"}
+2021
+1
+{"invoice_number":"1000134453","request_reference":"dF3ImmgcaT","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-ngo-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-06","invoice_expires":"2021-06-06T00:00:00Z","invoice_status":"active","connected_org":"AMTA PROMOTION AND ORGANIZATION","invoice_id":"17"}
+{"invoice_id":"17","invoice_number":"1000134453","request_reference":"dF3ImmgcaT","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-ngo-recertification","payment_date":"2020-06-06","invoice_expires":"2021-06-06 00:00:00","invoice_status":"active","connected_org":"AMTA PROMOTION AND ORGANIZATION","start_use":"0000-00-00"}
+2019
+1
+{"invoice_number":"1000134452","request_reference":"aSgYshKbNZ","invoice_category":"NGOs and CBOs","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-06-05","invoice_expires":"2020-06-04T00:00:00Z","invoice_status":"expired","connected_org":"","invoice_id":"16"}
+{"invoice_id":"16","invoice_number":"1000134452","request_reference":"aSgYshKbNZ","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"fresh","payment_date":"2019-06-05","invoice_expires":"2020-06-04 00:00:00","invoice_status":"expired","connected_org":"","start_use":"0000-00-00"}
+2014
+1
+{"invoice_number":"1000134398","request_reference":"UOSdye9jXo","invoice_category":"Cooperative","invoice_sub_category":"legal-search","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-04","invoice_expires":"2021-06-04T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"15"}
+{"invoice_id":"15","invoice_number":"1000134398","request_reference":"UOSdye9jXo","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"legal-search","payment_date":"2020-06-04","invoice_expires":"2021-06-04 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}
+2012
+1
+{"invoice_number":"1000134397","request_reference":"6KkCEQKjCp","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-04","invoice_expires":"2021-06-04T00:00:00Z","invoice_status":"active","connected_org":"N.U.R.T.W COOPERATIVE SOCIETY LIMITED, LAFIA","invoice_id":"14"}
+{"invoice_id":"14","invoice_number":"1000134397","request_reference":"6KkCEQKjCp","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2020-06-04","invoice_expires":"2021-06-04 00:00:00","invoice_status":"active","connected_org":"N.U.R.T.W COOPERATIVE SOCIETY LIMITED, LAFIA","start_use":"0000-00-00"}
+2010
+1
+{"invoice_number":"1000134388","request_reference":"pS8dA4Dgco","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-04","invoice_expires":"2021-06-04T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"13"}
+{"invoice_id":"13","invoice_number":"1000134388","request_reference":"pS8dA4Dgco","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2020-06-04","invoice_expires":"2021-06-04 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}
+2007
+1
+{"invoice_number":"1000134327","request_reference":"ozSn7fexUI","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-03","invoice_expires":"2021-06-03T00:00:00Z","invoice_status":"active","connected_org":"OBI COOPERATIVE UNION LTD OBI","invoice_id":"12"}
+{"invoice_id":"12","invoice_number":"1000134327","request_reference":"ozSn7fexUI","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2020-06-03","invoice_expires":"2021-06-03 00:00:00","invoice_status":"active","connected_org":"OBI COOPERATIVE UNION LTD OBI","start_use":"2020-06-03"}
+2005
+1
+{"invoice_number":"1000134313","request_reference":"mhC43BmtQ8","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-06-03","invoice_expires":"2020-06-02T00:00:00Z","invoice_status":"expired","connected_org":"OBI COOPERATIVE UNION LTD OBI","invoice_id":"11"}
+{"invoice_id":"11","invoice_number":"1000134313","request_reference":"mhC43BmtQ8","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2019-06-03","invoice_expires":"2020-06-02 00:00:00","invoice_status":"expired","connected_org":"OBI COOPERATIVE UNION LTD OBI","start_use":"0000-00-00"}
+2000
+1
+{"invoice_number":"1000134130","request_reference":"9jdwOwzwmJ","invoice_category":"Cooperative","invoice_sub_category":"used-legal-search","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-01","invoice_expires":"2021-06-01T00:00:00Z","invoice_status":"active","connected_org":"Money Makers Cooperative Society","invoice_id":"10"}
+{"invoice_id":"10","invoice_number":"1000134130","request_reference":"9jdwOwzwmJ","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-legal-search","payment_date":"2020-06-01","invoice_expires":"2021-06-01 00:00:00","invoice_status":"active","connected_org":"Money Makers Cooperative Society","start_use":"2020-06-02"}
+1989
+1
+{"invoice_number":"1000134050","request_reference":"68TUkNeKug","invoice_category":"Cooperative","invoice_sub_category":"used-replacement","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-05-29","invoice_expires":"2021-05-29T00:00:00Z","invoice_status":"active","connected_org":"MINISTRY OF COMMERCE, INDUSTRY AND COOPERATIVE STAFF COOPERATIVE THRIFT AND LOAN SOCIETY LIMITED, LAFIA","invoice_id":"9"}
+{"invoice_id":"9","invoice_number":"1000134050","request_reference":"68TUkNeKug","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-replacement","payment_date":"2020-05-29","invoice_expires":"2021-05-29 00:00:00","invoice_status":"active","connected_org":"MINISTRY OF COMMERCE, INDUSTRY AND COOPERATIVE STAFF COOPERATIVE THRIFT AND LOAN SOCIETY LIMITED, LAFIA","start_use":"2020-05-31"}
+1987
+1
+{"invoice_number":"1000134048","request_reference":"qAS5QDufGD","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-05-28","invoice_expires":"2021-05-28T00:00:00Z","invoice_status":"active","connected_org":"BUSSINESS AND ECONOMIC DEVELOPMENT COMMITTEE (BE DE)","invoice_id":"8"}
+{"invoice_id":"8","invoice_number":"1000134048","request_reference":"qAS5QDufGD","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2020-05-28","invoice_expires":"2021-05-28 00:00:00","invoice_status":"active","connected_org":"BUSSINESS AND ECONOMIC DEVELOPMENT COMMITTEE (BE DE)","start_use":"2020-05-28"}
+1985
+1
+{"invoice_number":"1000134046","request_reference":"DUyna62Me0","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-05-27","invoice_expires":"2020-05-26T00:00:00Z","invoice_status":"expired","connected_org":"Jagba Jagba Enterprise","invoice_id":"7"}
+{"invoice_id":"7","invoice_number":"1000134046","request_reference":"DUyna62Me0","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2019-05-27","invoice_expires":"2020-05-26 00:00:00","invoice_status":"expired","connected_org":"Jagba Jagba Enterprise","start_use":"0000-00-00"}
+1983
+1
+{"invoice_number":"1000134042","request_reference":"xDAyGuSFlb","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-05-27","invoice_expires":"2021-05-27T00:00:00Z","invoice_status":"active","connected_org":"The only African Men Cooperative","invoice_id":"6"}
+{"invoice_id":"6","invoice_number":"1000134042","request_reference":"xDAyGuSFlb","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2020-05-27","invoice_expires":"2021-05-27 00:00:00","invoice_status":"active","connected_org":"The only African Men Cooperative","start_use":"2020-05-27"}
+1978
+1
+{"invoice_number":"1000134031","request_reference":"owpKhZg5sV","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-05-22","invoice_expires":"2020-05-21T00:00:00Z","invoice_status":"expired","connected_org":"","invoice_id":"4"}
+{"invoice_id":"4","invoice_number":"1000134031","request_reference":"owpKhZg5sV","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2019-05-22","invoice_expires":"2020-05-21 00:00:00","invoice_status":"expired","connected_org":"","start_use":"0000-00-00"}
+1971
+1
+{"invoice_number":"1000133947","request_reference":"1hCee1oVU0","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-05-13","invoice_expires":"2021-05-13T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"2"}
+{"invoice_id":"2","invoice_number":"1000133947","request_reference":"1hCee1oVU0","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2020-05-13","invoice_expires":"2021-05-13 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}
+1968
+1
+{"invoice_number":"1000133933","request_reference":"ISnntPL35F","invoice_category":"NGOs and CBOs","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-07-05","invoice_expires":"2020-07-04T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"3"}
+{"invoice_id":"3","invoice_number":"1000133933","request_reference":"ISnntPL35F","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"fresh","payment_date":"2019-07-05","invoice_expires":"2020-07-04 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}
+1964
+1
+{"invoice_number":"1000133906","request_reference":"yIFG5aUzPt","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-04-29","invoice_expires":"2021-04-29T00:00:00Z","invoice_status":"active","connected_org":"NASARAWA STATE COMMITTEE OF YOUNG MEN CHRISTIAN ASSOCIATION","invoice_id":"1"}
+{"invoice_id":"1","invoice_number":"1000133906","request_reference":"yIFG5aUzPt","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2020-04-29","invoice_expires":"2021-04-29 00:00:00","invoice_status":"active","connected_org":"NASARAWA STATE COMMITTEE OF YOUNG MEN CHRISTIAN ASSOCIATION","start_use":"2020-05-22"}
+1959
+1
+{"invoice_number":"1000133838","request_reference":"nhH8omAje6","invoice_category":"Business Premise","invoice_sub_category":"","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-04-23","invoice_expires":"2021-04-23T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"5"}
+{"invoice_id":"5","invoice_number":"1000133838","request_reference":"nhH8omAje6","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Business Premise","invoice_sub_category":"","payment_date":"2020-04-23","invoice_expires":"2021-04-23 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}
+2045
+1
+{"invoice_number":"1000135078","request_reference":"11IFPAaTti","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-18","invoice_expires":"2021-06-18T00:00:00Z","invoice_status":"","connected_org":"","invoice_id":"24"}
+{"invoice_id":"24","invoice_number":"1000135078","request_reference":"11IFPAaTti","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2020-06-18","invoice_expires":"2021-06-18 00:00:00","invoice_status":"","connected_org":"","start_use":"0000-00-00"}
+2039
+1
+{"invoice_number":"1000134774","request_reference":"DGFC05rY2y","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-05-13","invoice_expires":"2020-05-12T00:00:00Z","invoice_status":"expired","connected_org":"Badass Money Makers of Nigeria","invoice_id":"23"}
+{"invoice_id":"23","invoice_number":"1000134774","request_reference":"DGFC05rY2y","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2019-05-13","invoice_expires":"2020-05-12 00:00:00","invoice_status":"expired","connected_org":"Badass Money Makers of Nigeria","start_use":"0000-00-00"}
+2037
+1
+{"invoice_number":"1000134773","request_reference":"gXYgMsu1th","invoice_category":"Business Premise","invoice_sub_category":"used-bp-renewal","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-14","invoice_expires":"2021-06-14T00:00:00Z","invoice_status":"active","connected_org":"MONEY MAKERS BUSINESS INCORPORATION","invoice_id":"22"}
+{"invoice_id":"22","invoice_number":"1000134773","request_reference":"gXYgMsu1th","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Business Premise","invoice_sub_category":"used-bp-renewal","payment_date":"2020-06-14","invoice_expires":"2021-06-14 00:00:00","invoice_status":"active","connected_org":"MONEY MAKERS BUSINESS INCORPORATION","start_use":"0000-00-00"}
+2033
+1
+{"invoice_number":"1000134771","request_reference":"qZiaJ3NQwd","invoice_category":"Business Premise","invoice_sub_category":"renewal","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-04-12","invoice_expires":"2020-04-11T00:00:00Z","invoice_status":"expired","connected_org":"","invoice_id":"21"}
+{"invoice_id":"21","invoice_number":"1000134771","request_reference":"qZiaJ3NQwd","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Business Premise","invoice_sub_category":"renewal","payment_date":"2019-04-12","invoice_expires":"2020-04-11 00:00:00","invoice_status":"expired","connected_org":"","start_use":"0000-00-00"}
+2030
+1
+{"invoice_number":"1000134690","request_reference":"5S7KfFQlw6","invoice_category":"NGOs and CBOs","invoice_sub_category":"legal-search","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-10","invoice_expires":"2021-06-10T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"20"}
+{"invoice_id":"20","invoice_number":"1000134690","request_reference":"5S7KfFQlw6","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"legal-search","payment_date":"2020-06-10","invoice_expires":"2021-06-10 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}
+2028
+1
+{"invoice_number":"1000134686","request_reference":"CgaBt1px55","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-legal-search","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-10","invoice_expires":"2021-06-10T00:00:00Z","invoice_status":"active","connected_org":"The Folks making Money","invoice_id":"19"}
+{"invoice_id":"19","invoice_number":"1000134686","request_reference":"CgaBt1px55","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-legal-search","payment_date":"2020-06-10","invoice_expires":"2021-06-10 00:00:00","invoice_status":"active","connected_org":"The Folks making Money","start_use":"2020-06-10"}
+2024
+1
+{"invoice_number":"1000134525","request_reference":"1PqdLDg4I2","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-ngo-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-08","invoice_expires":"2021-06-08T00:00:00Z","invoice_status":"active","connected_org":"Money Makers NGO","invoice_id":"18"}
+{"invoice_id":"18","invoice_number":"1000134525","request_reference":"1PqdLDg4I2","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-ngo-recertification","payment_date":"2020-06-08","invoice_expires":"2021-06-08 00:00:00","invoice_status":"active","connected_org":"Money Makers NGO","start_use":"2020-06-08"}
+2021
+1
+{"invoice_number":"1000134453","request_reference":"dF3ImmgcaT","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-ngo-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-06","invoice_expires":"2021-06-06T00:00:00Z","invoice_status":"active","connected_org":"AMTA PROMOTION AND ORGANIZATION","invoice_id":"17"}
+{"invoice_id":"17","invoice_number":"1000134453","request_reference":"dF3ImmgcaT","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-ngo-recertification","payment_date":"2020-06-06","invoice_expires":"2021-06-06 00:00:00","invoice_status":"active","connected_org":"AMTA PROMOTION AND ORGANIZATION","start_use":"0000-00-00"}
+2019
+1
+{"invoice_number":"1000134452","request_reference":"aSgYshKbNZ","invoice_category":"NGOs and CBOs","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-06-05","invoice_expires":"2020-06-04T00:00:00Z","invoice_status":"expired","connected_org":"","invoice_id":"16"}
+{"invoice_id":"16","invoice_number":"1000134452","request_reference":"aSgYshKbNZ","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"fresh","payment_date":"2019-06-05","invoice_expires":"2020-06-04 00:00:00","invoice_status":"expired","connected_org":"","start_use":"0000-00-00"}
+2014
+1
+{"invoice_number":"1000134398","request_reference":"UOSdye9jXo","invoice_category":"Cooperative","invoice_sub_category":"legal-search","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-04","invoice_expires":"2021-06-04T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"15"}
+{"invoice_id":"15","invoice_number":"1000134398","request_reference":"UOSdye9jXo","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"legal-search","payment_date":"2020-06-04","invoice_expires":"2021-06-04 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}
+2012
+1
+{"invoice_number":"1000134397","request_reference":"6KkCEQKjCp","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-04","invoice_expires":"2021-06-04T00:00:00Z","invoice_status":"active","connected_org":"N.U.R.T.W COOPERATIVE SOCIETY LIMITED, LAFIA","invoice_id":"14"}
+{"invoice_id":"14","invoice_number":"1000134397","request_reference":"6KkCEQKjCp","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2020-06-04","invoice_expires":"2021-06-04 00:00:00","invoice_status":"active","connected_org":"N.U.R.T.W COOPERATIVE SOCIETY LIMITED, LAFIA","start_use":"0000-00-00"}
+2010
+1
+{"invoice_number":"1000134388","request_reference":"pS8dA4Dgco","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-04","invoice_expires":"2021-06-04T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"13"}
+{"invoice_id":"13","invoice_number":"1000134388","request_reference":"pS8dA4Dgco","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2020-06-04","invoice_expires":"2021-06-04 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}
+2007
+1
+{"invoice_number":"1000134327","request_reference":"ozSn7fexUI","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-03","invoice_expires":"2021-06-03T00:00:00Z","invoice_status":"active","connected_org":"OBI COOPERATIVE UNION LTD OBI","invoice_id":"12"}
+{"invoice_id":"12","invoice_number":"1000134327","request_reference":"ozSn7fexUI","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2020-06-03","invoice_expires":"2021-06-03 00:00:00","invoice_status":"active","connected_org":"OBI COOPERATIVE UNION LTD OBI","start_use":"2020-06-03"}
+2005
+1
+{"invoice_number":"1000134313","request_reference":"mhC43BmtQ8","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-06-03","invoice_expires":"2020-06-02T00:00:00Z","invoice_status":"expired","connected_org":"OBI COOPERATIVE UNION LTD OBI","invoice_id":"11"}
+{"invoice_id":"11","invoice_number":"1000134313","request_reference":"mhC43BmtQ8","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2019-06-03","invoice_expires":"2020-06-02 00:00:00","invoice_status":"expired","connected_org":"OBI COOPERATIVE UNION LTD OBI","start_use":"0000-00-00"}
+2000
+1
+{"invoice_number":"1000134130","request_reference":"9jdwOwzwmJ","invoice_category":"Cooperative","invoice_sub_category":"used-legal-search","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-01","invoice_expires":"2021-06-01T00:00:00Z","invoice_status":"active","connected_org":"Money Makers Cooperative Society","invoice_id":"10"}
+{"invoice_id":"10","invoice_number":"1000134130","request_reference":"9jdwOwzwmJ","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-legal-search","payment_date":"2020-06-01","invoice_expires":"2021-06-01 00:00:00","invoice_status":"active","connected_org":"Money Makers Cooperative Society","start_use":"2020-06-02"}
+1989
+1
+{"invoice_number":"1000134050","request_reference":"68TUkNeKug","invoice_category":"Cooperative","invoice_sub_category":"used-replacement","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-05-29","invoice_expires":"2021-05-29T00:00:00Z","invoice_status":"active","connected_org":"MINISTRY OF COMMERCE, INDUSTRY AND COOPERATIVE STAFF COOPERATIVE THRIFT AND LOAN SOCIETY LIMITED, LAFIA","invoice_id":"9"}
+{"invoice_id":"9","invoice_number":"1000134050","request_reference":"68TUkNeKug","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-replacement","payment_date":"2020-05-29","invoice_expires":"2021-05-29 00:00:00","invoice_status":"active","connected_org":"MINISTRY OF COMMERCE, INDUSTRY AND COOPERATIVE STAFF COOPERATIVE THRIFT AND LOAN SOCIETY LIMITED, LAFIA","start_use":"2020-05-31"}
+1987
+1
+{"invoice_number":"1000134048","request_reference":"qAS5QDufGD","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-05-28","invoice_expires":"2021-05-28T00:00:00Z","invoice_status":"active","connected_org":"BUSSINESS AND ECONOMIC DEVELOPMENT COMMITTEE (BE DE)","invoice_id":"8"}
+{"invoice_id":"8","invoice_number":"1000134048","request_reference":"qAS5QDufGD","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2020-05-28","invoice_expires":"2021-05-28 00:00:00","invoice_status":"active","connected_org":"BUSSINESS AND ECONOMIC DEVELOPMENT COMMITTEE (BE DE)","start_use":"2020-05-28"}
+1985
+1
+{"invoice_number":"1000134046","request_reference":"DUyna62Me0","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-05-27","invoice_expires":"2020-05-26T00:00:00Z","invoice_status":"expired","connected_org":"Jagba Jagba Enterprise","invoice_id":"7"}
+{"invoice_id":"7","invoice_number":"1000134046","request_reference":"DUyna62Me0","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2019-05-27","invoice_expires":"2020-05-26 00:00:00","invoice_status":"expired","connected_org":"Jagba Jagba Enterprise","start_use":"0000-00-00"}
+1983
+1
+{"invoice_number":"1000134042","request_reference":"xDAyGuSFlb","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-05-27","invoice_expires":"2021-05-27T00:00:00Z","invoice_status":"active","connected_org":"The only African Men Cooperative","invoice_id":"6"}
+{"invoice_id":"6","invoice_number":"1000134042","request_reference":"xDAyGuSFlb","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2020-05-27","invoice_expires":"2021-05-27 00:00:00","invoice_status":"active","connected_org":"The only African Men Cooperative","start_use":"2020-05-27"}
+1978
+1
+{"invoice_number":"1000134031","request_reference":"owpKhZg5sV","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-05-22","invoice_expires":"2020-05-21T00:00:00Z","invoice_status":"expired","connected_org":"","invoice_id":"4"}
+{"invoice_id":"4","invoice_number":"1000134031","request_reference":"owpKhZg5sV","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2019-05-22","invoice_expires":"2020-05-21 00:00:00","invoice_status":"expired","connected_org":"","start_use":"0000-00-00"}
+1971
+1
+{"invoice_number":"1000133947","request_reference":"1hCee1oVU0","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-05-13","invoice_expires":"2021-05-13T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"2"}
+{"invoice_id":"2","invoice_number":"1000133947","request_reference":"1hCee1oVU0","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2020-05-13","invoice_expires":"2021-05-13 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}
+1968
+1
+{"invoice_number":"1000133933","request_reference":"ISnntPL35F","invoice_category":"NGOs and CBOs","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-07-05","invoice_expires":"2020-07-04T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"3"}
+{"invoice_id":"3","invoice_number":"1000133933","request_reference":"ISnntPL35F","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"fresh","payment_date":"2019-07-05","invoice_expires":"2020-07-04 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}
+1964
+1
+{"invoice_number":"1000133906","request_reference":"yIFG5aUzPt","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-04-29","invoice_expires":"2021-04-29T00:00:00Z","invoice_status":"active","connected_org":"NASARAWA STATE COMMITTEE OF YOUNG MEN CHRISTIAN ASSOCIATION","invoice_id":"1"}
+{"invoice_id":"1","invoice_number":"1000133906","request_reference":"yIFG5aUzPt","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2020-04-29","invoice_expires":"2021-04-29 00:00:00","invoice_status":"active","connected_org":"NASARAWA STATE COMMITTEE OF YOUNG MEN CHRISTIAN ASSOCIATION","start_use":"2020-05-22"}
+1959
+1
+{"invoice_number":"1000133838","request_reference":"nhH8omAje6","invoice_category":"Business Premise","invoice_sub_category":"","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-04-23","invoice_expires":"2021-04-23T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"5"}
+{"invoice_id":"5","invoice_number":"1000133838","request_reference":"nhH8omAje6","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Business Premise","invoice_sub_category":"","payment_date":"2020-04-23","invoice_expires":"2021-04-23 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}
+2045
+1
+{"invoice_number":"1000135078","request_reference":"11IFPAaTti","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-18","invoice_expires":"2021-06-18T00:00:00Z","invoice_status":"","connected_org":"","invoice_id":"24"}
+{"invoice_id":"24","invoice_number":"1000135078","request_reference":"11IFPAaTti","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2020-06-18","invoice_expires":"2021-06-18 00:00:00","invoice_status":"","connected_org":"","start_use":"0000-00-00"}
+2039
+1
+{"invoice_number":"1000134774","request_reference":"DGFC05rY2y","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-05-13","invoice_expires":"2020-05-12T00:00:00Z","invoice_status":"expired","connected_org":"Badass Money Makers of Nigeria","invoice_id":"23"}
+{"invoice_id":"23","invoice_number":"1000134774","request_reference":"DGFC05rY2y","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2019-05-13","invoice_expires":"2020-05-12 00:00:00","invoice_status":"expired","connected_org":"Badass Money Makers of Nigeria","start_use":"0000-00-00"}
+2037
+1
+{"invoice_number":"1000134773","request_reference":"gXYgMsu1th","invoice_category":"Business Premise","invoice_sub_category":"used-bp-renewal","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-14","invoice_expires":"2021-06-14T00:00:00Z","invoice_status":"active","connected_org":"MONEY MAKERS BUSINESS INCORPORATION","invoice_id":"22"}
+{"invoice_id":"22","invoice_number":"1000134773","request_reference":"gXYgMsu1th","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Business Premise","invoice_sub_category":"used-bp-renewal","payment_date":"2020-06-14","invoice_expires":"2021-06-14 00:00:00","invoice_status":"active","connected_org":"MONEY MAKERS BUSINESS INCORPORATION","start_use":"0000-00-00"}
+2033
+1
+{"invoice_number":"1000134771","request_reference":"qZiaJ3NQwd","invoice_category":"Business Premise","invoice_sub_category":"renewal","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-04-12","invoice_expires":"2020-04-11T00:00:00Z","invoice_status":"expired","connected_org":"","invoice_id":"21"}
+{"invoice_id":"21","invoice_number":"1000134771","request_reference":"qZiaJ3NQwd","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Business Premise","invoice_sub_category":"renewal","payment_date":"2019-04-12","invoice_expires":"2020-04-11 00:00:00","invoice_status":"expired","connected_org":"","start_use":"0000-00-00"}
+2030
+1
+{"invoice_number":"1000134690","request_reference":"5S7KfFQlw6","invoice_category":"NGOs and CBOs","invoice_sub_category":"legal-search","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-10","invoice_expires":"2021-06-10T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"20"}
+{"invoice_id":"20","invoice_number":"1000134690","request_reference":"5S7KfFQlw6","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"legal-search","payment_date":"2020-06-10","invoice_expires":"2021-06-10 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}
+2028
+1
+{"invoice_number":"1000134686","request_reference":"CgaBt1px55","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-legal-search","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-10","invoice_expires":"2021-06-10T00:00:00Z","invoice_status":"active","connected_org":"The Folks making Money","invoice_id":"19"}
+{"invoice_id":"19","invoice_number":"1000134686","request_reference":"CgaBt1px55","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-legal-search","payment_date":"2020-06-10","invoice_expires":"2021-06-10 00:00:00","invoice_status":"active","connected_org":"The Folks making Money","start_use":"2020-06-10"}
+2024
+1
+{"invoice_number":"1000134525","request_reference":"1PqdLDg4I2","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-ngo-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-08","invoice_expires":"2021-06-08T00:00:00Z","invoice_status":"active","connected_org":"Money Makers NGO","invoice_id":"18"}
+{"invoice_id":"18","invoice_number":"1000134525","request_reference":"1PqdLDg4I2","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-ngo-recertification","payment_date":"2020-06-08","invoice_expires":"2021-06-08 00:00:00","invoice_status":"active","connected_org":"Money Makers NGO","start_use":"2020-06-08"}
+2021
+1
+{"invoice_number":"1000134453","request_reference":"dF3ImmgcaT","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-ngo-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-06","invoice_expires":"2021-06-06T00:00:00Z","invoice_status":"active","connected_org":"AMTA PROMOTION AND ORGANIZATION","invoice_id":"17"}
+{"invoice_id":"17","invoice_number":"1000134453","request_reference":"dF3ImmgcaT","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-ngo-recertification","payment_date":"2020-06-06","invoice_expires":"2021-06-06 00:00:00","invoice_status":"active","connected_org":"AMTA PROMOTION AND ORGANIZATION","start_use":"0000-00-00"}
+2019
+1
+{"invoice_number":"1000134452","request_reference":"aSgYshKbNZ","invoice_category":"NGOs and CBOs","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-06-05","invoice_expires":"2020-06-04T00:00:00Z","invoice_status":"expired","connected_org":"","invoice_id":"16"}
+{"invoice_id":"16","invoice_number":"1000134452","request_reference":"aSgYshKbNZ","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"fresh","payment_date":"2019-06-05","invoice_expires":"2020-06-04 00:00:00","invoice_status":"expired","connected_org":"","start_use":"0000-00-00"}
+2014
+1
+{"invoice_number":"1000134398","request_reference":"UOSdye9jXo","invoice_category":"Cooperative","invoice_sub_category":"legal-search","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-04","invoice_expires":"2021-06-04T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"15"}
+{"invoice_id":"15","invoice_number":"1000134398","request_reference":"UOSdye9jXo","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"legal-search","payment_date":"2020-06-04","invoice_expires":"2021-06-04 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}
+2012
+1
+{"invoice_number":"1000134397","request_reference":"6KkCEQKjCp","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-04","invoice_expires":"2021-06-04T00:00:00Z","invoice_status":"active","connected_org":"N.U.R.T.W COOPERATIVE SOCIETY LIMITED, LAFIA","invoice_id":"14"}
+{"invoice_id":"14","invoice_number":"1000134397","request_reference":"6KkCEQKjCp","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2020-06-04","invoice_expires":"2021-06-04 00:00:00","invoice_status":"active","connected_org":"N.U.R.T.W COOPERATIVE SOCIETY LIMITED, LAFIA","start_use":"0000-00-00"}
+2010
+1
+{"invoice_number":"1000134388","request_reference":"pS8dA4Dgco","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-04","invoice_expires":"2021-06-04T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"13"}
+{"invoice_id":"13","invoice_number":"1000134388","request_reference":"pS8dA4Dgco","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2020-06-04","invoice_expires":"2021-06-04 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}
+2007
+1
+{"invoice_number":"1000134327","request_reference":"ozSn7fexUI","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-03","invoice_expires":"2021-06-03T00:00:00Z","invoice_status":"active","connected_org":"OBI COOPERATIVE UNION LTD OBI","invoice_id":"12"}
+{"invoice_id":"12","invoice_number":"1000134327","request_reference":"ozSn7fexUI","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2020-06-03","invoice_expires":"2021-06-03 00:00:00","invoice_status":"active","connected_org":"OBI COOPERATIVE UNION LTD OBI","start_use":"2020-06-03"}
+2005
+1
+{"invoice_number":"1000134313","request_reference":"mhC43BmtQ8","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-06-03","invoice_expires":"2020-06-02T00:00:00Z","invoice_status":"expired","connected_org":"OBI COOPERATIVE UNION LTD OBI","invoice_id":"11"}
+{"invoice_id":"11","invoice_number":"1000134313","request_reference":"mhC43BmtQ8","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2019-06-03","invoice_expires":"2020-06-02 00:00:00","invoice_status":"expired","connected_org":"OBI COOPERATIVE UNION LTD OBI","start_use":"0000-00-00"}
+2000
+1
+{"invoice_number":"1000134130","request_reference":"9jdwOwzwmJ","invoice_category":"Cooperative","invoice_sub_category":"used-legal-search","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-01","invoice_expires":"2021-06-01T00:00:00Z","invoice_status":"active","connected_org":"Money Makers Cooperative Society","invoice_id":"10"}
+{"invoice_id":"10","invoice_number":"1000134130","request_reference":"9jdwOwzwmJ","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-legal-search","payment_date":"2020-06-01","invoice_expires":"2021-06-01 00:00:00","invoice_status":"active","connected_org":"Money Makers Cooperative Society","start_use":"2020-06-02"}
+1989
+1
+{"invoice_number":"1000134050","request_reference":"68TUkNeKug","invoice_category":"Cooperative","invoice_sub_category":"used-replacement","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-05-29","invoice_expires":"2021-05-29T00:00:00Z","invoice_status":"active","connected_org":"MINISTRY OF COMMERCE, INDUSTRY AND COOPERATIVE STAFF COOPERATIVE THRIFT AND LOAN SOCIETY LIMITED, LAFIA","invoice_id":"9"}
+{"invoice_id":"9","invoice_number":"1000134050","request_reference":"68TUkNeKug","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-replacement","payment_date":"2020-05-29","invoice_expires":"2021-05-29 00:00:00","invoice_status":"active","connected_org":"MINISTRY OF COMMERCE, INDUSTRY AND COOPERATIVE STAFF COOPERATIVE THRIFT AND LOAN SOCIETY LIMITED, LAFIA","start_use":"2020-05-31"}
+1987
+1
+{"invoice_number":"1000134048","request_reference":"qAS5QDufGD","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-05-28","invoice_expires":"2021-05-28T00:00:00Z","invoice_status":"active","connected_org":"BUSSINESS AND ECONOMIC DEVELOPMENT COMMITTEE (BE DE)","invoice_id":"8"}
+{"invoice_id":"8","invoice_number":"1000134048","request_reference":"qAS5QDufGD","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2020-05-28","invoice_expires":"2021-05-28 00:00:00","invoice_status":"active","connected_org":"BUSSINESS AND ECONOMIC DEVELOPMENT COMMITTEE (BE DE)","start_use":"2020-05-28"}
+1985
+1
+{"invoice_number":"1000134046","request_reference":"DUyna62Me0","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-05-27","invoice_expires":"2020-05-26T00:00:00Z","invoice_status":"expired","connected_org":"Jagba Jagba Enterprise","invoice_id":"7"}
+{"invoice_id":"7","invoice_number":"1000134046","request_reference":"DUyna62Me0","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2019-05-27","invoice_expires":"2020-05-26 00:00:00","invoice_status":"expired","connected_org":"Jagba Jagba Enterprise","start_use":"0000-00-00"}
+1983
+1
+{"invoice_number":"1000134042","request_reference":"xDAyGuSFlb","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-05-27","invoice_expires":"2021-05-27T00:00:00Z","invoice_status":"active","connected_org":"The only African Men Cooperative","invoice_id":"6"}
+{"invoice_id":"6","invoice_number":"1000134042","request_reference":"xDAyGuSFlb","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2020-05-27","invoice_expires":"2021-05-27 00:00:00","invoice_status":"active","connected_org":"The only African Men Cooperative","start_use":"2020-05-27"}
+1978
+1
+{"invoice_number":"1000134031","request_reference":"owpKhZg5sV","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-05-22","invoice_expires":"2020-05-21T00:00:00Z","invoice_status":"expired","connected_org":"","invoice_id":"4"}
+{"invoice_id":"4","invoice_number":"1000134031","request_reference":"owpKhZg5sV","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2019-05-22","invoice_expires":"2020-05-21 00:00:00","invoice_status":"expired","connected_org":"","start_use":"0000-00-00"}
+1971
+1
+{"invoice_number":"1000133947","request_reference":"1hCee1oVU0","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-05-13","invoice_expires":"2021-05-13T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"2"}
+{"invoice_id":"2","invoice_number":"1000133947","request_reference":"1hCee1oVU0","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2020-05-13","invoice_expires":"2021-05-13 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}
+1968
+1
+{"invoice_number":"1000133933","request_reference":"ISnntPL35F","invoice_category":"NGOs and CBOs","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-07-05","invoice_expires":"2020-07-04T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"3"}
+{"invoice_id":"3","invoice_number":"1000133933","request_reference":"ISnntPL35F","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"fresh","payment_date":"2019-07-05","invoice_expires":"2020-07-04 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}
+1964
+1
+{"invoice_number":"1000133906","request_reference":"yIFG5aUzPt","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-04-29","invoice_expires":"2021-04-29T00:00:00Z","invoice_status":"active","connected_org":"NASARAWA STATE COMMITTEE OF YOUNG MEN CHRISTIAN ASSOCIATION","invoice_id":"1"}
+{"invoice_id":"1","invoice_number":"1000133906","request_reference":"yIFG5aUzPt","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2020-04-29","invoice_expires":"2021-04-29 00:00:00","invoice_status":"active","connected_org":"NASARAWA STATE COMMITTEE OF YOUNG MEN CHRISTIAN ASSOCIATION","start_use":"2020-05-22"}
+1959
+1
+{"invoice_number":"1000133838","request_reference":"nhH8omAje6","invoice_category":"Business Premise","invoice_sub_category":"","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-04-23","invoice_expires":"2021-04-23T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"5"}
+{"invoice_id":"5","invoice_number":"1000133838","request_reference":"nhH8omAje6","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Business Premise","invoice_sub_category":"","payment_date":"2020-04-23","invoice_expires":"2021-04-23 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}
+2045
+1
+{"invoice_number":"1000135078","request_reference":"11IFPAaTti","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-18","invoice_expires":"2021-06-18T00:00:00Z","invoice_status":"","connected_org":"","invoice_id":"24"}
+{"invoice_id":"24","invoice_number":"1000135078","request_reference":"11IFPAaTti","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2020-06-18","invoice_expires":"2021-06-18 00:00:00","invoice_status":"","connected_org":"","start_use":"0000-00-00"}
+2039
+1
+{"invoice_number":"1000134774","request_reference":"DGFC05rY2y","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-05-13","invoice_expires":"2020-05-12T00:00:00Z","invoice_status":"expired","connected_org":"Badass Money Makers of Nigeria","invoice_id":"23"}
+{"invoice_id":"23","invoice_number":"1000134774","request_reference":"DGFC05rY2y","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2019-05-13","invoice_expires":"2020-05-12 00:00:00","invoice_status":"expired","connected_org":"Badass Money Makers of Nigeria","start_use":"0000-00-00"}
+2037
+1
+{"invoice_number":"1000134773","request_reference":"gXYgMsu1th","invoice_category":"Business Premise","invoice_sub_category":"used-bp-renewal","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-14","invoice_expires":"2021-06-14T00:00:00Z","invoice_status":"active","connected_org":"MONEY MAKERS BUSINESS INCORPORATION","invoice_id":"22"}
+{"invoice_id":"22","invoice_number":"1000134773","request_reference":"gXYgMsu1th","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Business Premise","invoice_sub_category":"used-bp-renewal","payment_date":"2020-06-14","invoice_expires":"2021-06-14 00:00:00","invoice_status":"active","connected_org":"MONEY MAKERS BUSINESS INCORPORATION","start_use":"0000-00-00"}
+2033
+1
+{"invoice_number":"1000134771","request_reference":"qZiaJ3NQwd","invoice_category":"Business Premise","invoice_sub_category":"renewal","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-04-12","invoice_expires":"2020-04-11T00:00:00Z","invoice_status":"expired","connected_org":"","invoice_id":"21"}
+{"invoice_id":"21","invoice_number":"1000134771","request_reference":"qZiaJ3NQwd","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Business Premise","invoice_sub_category":"renewal","payment_date":"2019-04-12","invoice_expires":"2020-04-11 00:00:00","invoice_status":"expired","connected_org":"","start_use":"0000-00-00"}
+2030
+1
+{"invoice_number":"1000134690","request_reference":"5S7KfFQlw6","invoice_category":"NGOs and CBOs","invoice_sub_category":"legal-search","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-10","invoice_expires":"2021-06-10T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"20"}
+{"invoice_id":"20","invoice_number":"1000134690","request_reference":"5S7KfFQlw6","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"legal-search","payment_date":"2020-06-10","invoice_expires":"2021-06-10 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}
+2028
+1
+{"invoice_number":"1000134686","request_reference":"CgaBt1px55","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-legal-search","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-10","invoice_expires":"2021-06-10T00:00:00Z","invoice_status":"active","connected_org":"The Folks making Money","invoice_id":"19"}
+{"invoice_id":"19","invoice_number":"1000134686","request_reference":"CgaBt1px55","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-legal-search","payment_date":"2020-06-10","invoice_expires":"2021-06-10 00:00:00","invoice_status":"active","connected_org":"The Folks making Money","start_use":"2020-06-10"}
+2024
+1
+{"invoice_number":"1000134525","request_reference":"1PqdLDg4I2","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-ngo-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-08","invoice_expires":"2021-06-08T00:00:00Z","invoice_status":"active","connected_org":"Money Makers NGO","invoice_id":"18"}
+{"invoice_id":"18","invoice_number":"1000134525","request_reference":"1PqdLDg4I2","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-ngo-recertification","payment_date":"2020-06-08","invoice_expires":"2021-06-08 00:00:00","invoice_status":"active","connected_org":"Money Makers NGO","start_use":"2020-06-08"}
+2021
+1
+{"invoice_number":"1000134453","request_reference":"dF3ImmgcaT","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-ngo-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-06","invoice_expires":"2021-06-06T00:00:00Z","invoice_status":"active","connected_org":"AMTA PROMOTION AND ORGANIZATION","invoice_id":"17"}
+{"invoice_id":"17","invoice_number":"1000134453","request_reference":"dF3ImmgcaT","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"used-ngo-recertification","payment_date":"2020-06-06","invoice_expires":"2021-06-06 00:00:00","invoice_status":"active","connected_org":"AMTA PROMOTION AND ORGANIZATION","start_use":"0000-00-00"}
+2019
+1
+{"invoice_number":"1000134452","request_reference":"aSgYshKbNZ","invoice_category":"NGOs and CBOs","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-06-05","invoice_expires":"2020-06-04T00:00:00Z","invoice_status":"expired","connected_org":"","invoice_id":"16"}
+{"invoice_id":"16","invoice_number":"1000134452","request_reference":"aSgYshKbNZ","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"fresh","payment_date":"2019-06-05","invoice_expires":"2020-06-04 00:00:00","invoice_status":"expired","connected_org":"","start_use":"0000-00-00"}
+2014
+1
+{"invoice_number":"1000134398","request_reference":"UOSdye9jXo","invoice_category":"Cooperative","invoice_sub_category":"legal-search","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-04","invoice_expires":"2021-06-04T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"15"}
+{"invoice_id":"15","invoice_number":"1000134398","request_reference":"UOSdye9jXo","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"legal-search","payment_date":"2020-06-04","invoice_expires":"2021-06-04 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}
+2012
+1
+{"invoice_number":"1000134397","request_reference":"6KkCEQKjCp","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-04","invoice_expires":"2021-06-04T00:00:00Z","invoice_status":"active","connected_org":"N.U.R.T.W COOPERATIVE SOCIETY LIMITED, LAFIA","invoice_id":"14"}
+{"invoice_id":"14","invoice_number":"1000134397","request_reference":"6KkCEQKjCp","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2020-06-04","invoice_expires":"2021-06-04 00:00:00","invoice_status":"active","connected_org":"N.U.R.T.W COOPERATIVE SOCIETY LIMITED, LAFIA","start_use":"0000-00-00"}
+2010
+1
+{"invoice_number":"1000134388","request_reference":"pS8dA4Dgco","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-04","invoice_expires":"2021-06-04T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"13"}
+{"invoice_id":"13","invoice_number":"1000134388","request_reference":"pS8dA4Dgco","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2020-06-04","invoice_expires":"2021-06-04 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}
+2007
+1
+{"invoice_number":"1000134327","request_reference":"ozSn7fexUI","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-03","invoice_expires":"2021-06-03T00:00:00Z","invoice_status":"active","connected_org":"OBI COOPERATIVE UNION LTD OBI","invoice_id":"12"}
+{"invoice_id":"12","invoice_number":"1000134327","request_reference":"ozSn7fexUI","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2020-06-03","invoice_expires":"2021-06-03 00:00:00","invoice_status":"active","connected_org":"OBI COOPERATIVE UNION LTD OBI","start_use":"2020-06-03"}
+2005
+1
+{"invoice_number":"1000134313","request_reference":"mhC43BmtQ8","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-06-03","invoice_expires":"2020-06-02T00:00:00Z","invoice_status":"expired","connected_org":"OBI COOPERATIVE UNION LTD OBI","invoice_id":"11"}
+{"invoice_id":"11","invoice_number":"1000134313","request_reference":"mhC43BmtQ8","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2019-06-03","invoice_expires":"2020-06-02 00:00:00","invoice_status":"expired","connected_org":"OBI COOPERATIVE UNION LTD OBI","start_use":"0000-00-00"}
+2000
+1
+{"invoice_number":"1000134130","request_reference":"9jdwOwzwmJ","invoice_category":"Cooperative","invoice_sub_category":"used-legal-search","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-06-01","invoice_expires":"2021-06-01T00:00:00Z","invoice_status":"active","connected_org":"Money Makers Cooperative Society","invoice_id":"10"}
+{"invoice_id":"10","invoice_number":"1000134130","request_reference":"9jdwOwzwmJ","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-legal-search","payment_date":"2020-06-01","invoice_expires":"2021-06-01 00:00:00","invoice_status":"active","connected_org":"Money Makers Cooperative Society","start_use":"2020-06-02"}
+1989
+1
+{"invoice_number":"1000134050","request_reference":"68TUkNeKug","invoice_category":"Cooperative","invoice_sub_category":"used-replacement","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-05-29","invoice_expires":"2021-05-29T00:00:00Z","invoice_status":"active","connected_org":"MINISTRY OF COMMERCE, INDUSTRY AND COOPERATIVE STAFF COOPERATIVE THRIFT AND LOAN SOCIETY LIMITED, LAFIA","invoice_id":"9"}
+{"invoice_id":"9","invoice_number":"1000134050","request_reference":"68TUkNeKug","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-replacement","payment_date":"2020-05-29","invoice_expires":"2021-05-29 00:00:00","invoice_status":"active","connected_org":"MINISTRY OF COMMERCE, INDUSTRY AND COOPERATIVE STAFF COOPERATIVE THRIFT AND LOAN SOCIETY LIMITED, LAFIA","start_use":"2020-05-31"}
+1987
+1
+{"invoice_number":"1000134048","request_reference":"qAS5QDufGD","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-05-28","invoice_expires":"2021-05-28T00:00:00Z","invoice_status":"active","connected_org":"BUSSINESS AND ECONOMIC DEVELOPMENT COMMITTEE (BE DE)","invoice_id":"8"}
+{"invoice_id":"8","invoice_number":"1000134048","request_reference":"qAS5QDufGD","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2020-05-28","invoice_expires":"2021-05-28 00:00:00","invoice_status":"active","connected_org":"BUSSINESS AND ECONOMIC DEVELOPMENT COMMITTEE (BE DE)","start_use":"2020-05-28"}
+1985
+1
+{"invoice_number":"1000134046","request_reference":"DUyna62Me0","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-05-27","invoice_expires":"2020-05-26T00:00:00Z","invoice_status":"expired","connected_org":"Jagba Jagba Enterprise","invoice_id":"7"}
+{"invoice_id":"7","invoice_number":"1000134046","request_reference":"DUyna62Me0","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2019-05-27","invoice_expires":"2020-05-26 00:00:00","invoice_status":"expired","connected_org":"Jagba Jagba Enterprise","start_use":"0000-00-00"}
+1983
+1
+{"invoice_number":"1000134042","request_reference":"xDAyGuSFlb","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-05-27","invoice_expires":"2021-05-27T00:00:00Z","invoice_status":"active","connected_org":"The only African Men Cooperative","invoice_id":"6"}
+{"invoice_id":"6","invoice_number":"1000134042","request_reference":"xDAyGuSFlb","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2020-05-27","invoice_expires":"2021-05-27 00:00:00","invoice_status":"active","connected_org":"The only African Men Cooperative","start_use":"2020-05-27"}
+1978
+1
+{"invoice_number":"1000134031","request_reference":"owpKhZg5sV","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-05-22","invoice_expires":"2020-05-21T00:00:00Z","invoice_status":"expired","connected_org":"","invoice_id":"4"}
+{"invoice_id":"4","invoice_number":"1000134031","request_reference":"owpKhZg5sV","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2019-05-22","invoice_expires":"2020-05-21 00:00:00","invoice_status":"expired","connected_org":"","start_use":"0000-00-00"}
+1971
+1
+{"invoice_number":"1000133947","request_reference":"1hCee1oVU0","invoice_category":"Cooperative","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-05-13","invoice_expires":"2021-05-13T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"2"}
+{"invoice_id":"2","invoice_number":"1000133947","request_reference":"1hCee1oVU0","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"fresh","payment_date":"2020-05-13","invoice_expires":"2021-05-13 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}
+1968
+1
+{"invoice_number":"1000133933","request_reference":"ISnntPL35F","invoice_category":"NGOs and CBOs","invoice_sub_category":"fresh","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2019-07-05","invoice_expires":"2020-07-04T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"3"}
+{"invoice_id":"3","invoice_number":"1000133933","request_reference":"ISnntPL35F","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"NGOs and CBOs","invoice_sub_category":"fresh","payment_date":"2019-07-05","invoice_expires":"2020-07-04 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}
+1964
+1
+{"invoice_number":"1000133906","request_reference":"yIFG5aUzPt","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-04-29","invoice_expires":"2021-04-29T00:00:00Z","invoice_status":"active","connected_org":"NASARAWA STATE COMMITTEE OF YOUNG MEN CHRISTIAN ASSOCIATION","invoice_id":"1"}
+{"invoice_id":"1","invoice_number":"1000133906","request_reference":"yIFG5aUzPt","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Cooperative","invoice_sub_category":"used-coop-recertification","payment_date":"2020-04-29","invoice_expires":"2021-04-29 00:00:00","invoice_status":"active","connected_org":"NASARAWA STATE COMMITTEE OF YOUNG MEN CHRISTIAN ASSOCIATION","start_use":"2020-05-22"}
+1959
+1
+{"invoice_number":"1000133838","request_reference":"nhH8omAje6","invoice_category":"Business Premise","invoice_sub_category":"","invoice_payer_email":"demmy.young.writes@gmail.com","payment_date":"2020-04-23","invoice_expires":"2021-04-23T00:00:00Z","invoice_status":"active","connected_org":"","invoice_id":"5"}
+{"invoice_id":"5","invoice_number":"1000133838","request_reference":"nhH8omAje6","invoice_payer_email":"demmy.young.writes@gmail.com","invoice_category":"Business Premise","invoice_sub_category":"","payment_date":"2020-04-23","invoice_expires":"2021-04-23 00:00:00","invoice_status":"active","connected_org":"","start_use":"0000-00-00"}

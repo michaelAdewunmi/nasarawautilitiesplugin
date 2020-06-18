@@ -10,8 +10,6 @@
  * @link       http://josbiz.com.ng
  * @since      1.0.0
  */
-
-require_once WP_CONTENT_DIR . '/plugins/mtii-utilities/public/class-mtii-utilities-task-performer.php';
 ?>
 
 <div class="section-body">

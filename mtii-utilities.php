@@ -13,8 +13,7 @@
  *
  * Plugin Name:       Ministry of Trades Industries and Investment Plugin
  * Plugin URI:        http://josbiz.com/miit/
- * Description:       A Plugin to control the various registration features for Ministry of
- *                    Trades Industries and Investment
+ * Description:       A Plugin to control the various registration features for Ministry of Trades Industries and Investment
  * Version:           1.0.0
  * Requires at least: 5.2
  * Author:            Josbiz
@@ -30,15 +29,18 @@
  * that starts the plugin.
  */
 
-require "vendor/autoload.php";
+require 'vendor/autoload.php';
 
-use MtiiUtilities\Activation_Utils;
-use MtiiUtilities\Deactivation_Utils;
-use MtiiUtilities\Loaders_Hooks_And_Filters;
-use MtiiUtilities\DbTable_Invoice;
-use MtiiUtilities\DbTable_Coop_Main_Form;
-use MtiiUtilities\DbTable_Signatories_Info;
-use MtiiUtilities\DbTable_Business_Premise_Form;
+use MtiiUtilities\MtiiLoadersAll;
+use MtiiUtilities\DbTableBusinessPremise;
+use MtiiUtilities\DbTableCertReplacement;
+use MtiiUtilities\DbTableCoopMainForm;
+use MtiiUtilities\DbTableLegalSearch;
+use MtiiUtilities\DbTableNgoAndCbo;
+use MtiiUtilities\DbTablePaidInvoices;
+use MtiiUtilities\DbTableSignatoriesInfo;
+use MtiiUtilities\PluginActivationTasks;
+use MtiiUtilities\PluginDeactivationTasks;
 
 if (!defined('WPINC')) {
     die;
@@ -50,13 +52,7 @@ if (!defined('WPINC')) {
  * Rename this for your plugin and update it as you release new versions.
  */
 define('MTII_UTILITIES_VERSION', '1.0.0');
-
-
-/**
- * The core plugin class that is used to define internationalization,
- * admin-specific hooks, and public-facing site hooks.
- */
-require plugin_dir_path(__FILE__) . 'includes/class-mtii-utilities.php';
+define('MTII_UTILITIES_PLUGIN_NAME', 'mtii-utilities');
 
 
 /**
@@ -67,7 +63,7 @@ require plugin_dir_path(__FILE__) . 'includes/class-mtii-utilities.php';
  */
 function activate_mtii_utilities()
 {
-    Activation_Utils::activate();
+    PluginActivationTasks::activate();
 }
 
 /**
@@ -77,7 +73,7 @@ function activate_mtii_utilities()
  */
 function deactivate_mtii_utilities()
 {
-    Deactivation_Utils::deactivate();
+    PluginDeactivationTasks::deactivate();
 }
 
 register_activation_hook(__FILE__, 'activate_mtii_utilities');
@@ -88,17 +84,17 @@ global $mtii_db_invoice;
 global $mtii_db_coop_main_form;
 global $mtii_signatories_template_db;
 global $mtii_biz_prem_db_main;
+global $mtii_ngo_cbo_db_table;
+global $mtii_cert_replacement_table;
+global $mtii_legal_search_table;
 
-$mtii_db_invoice = new DbTable_Invoice;
-$mtii_db_coop_main_form = new DbTable_Coop_Main_Form;
-$mtii_signatories_template_db = new DbTable_Signatories_Info;
-$mtii_biz_prem_db_main = new DbTable_Business_Premise_Form;
-
-update_option('live_or_staging', 'mtii_live');
-
-// if (get_option('live_or_staging')) {
-//     delete_option('live_or_staging');
-// }
+$mtii_db_invoice = new DbTablePaidInvoices;
+$mtii_db_coop_main_form = new DbTableCoopMainForm;
+$mtii_signatories_template_db = new DbTableSignatoriesInfo;
+$mtii_biz_prem_db_main = new DbTableBusinessPremise;
+$mtii_ngo_cbo_db_table = new DbTableNgoAndCbo;
+$mtii_cert_replacement_table =  new DbTableCertReplacement;
+$mtii_legal_search_table = new DbTableLegalSearch;
 
 /**
  * Begins execution of the plugin.
@@ -112,7 +108,7 @@ update_option('live_or_staging', 'mtii_live');
  */
 function run_mtii_utilities()
 {
-    $plugin = new Loaders_Hooks_And_Filters();
+    $plugin = new MtiiLoadersAll;
     $plugin->run();
 }
 run_mtii_utilities();

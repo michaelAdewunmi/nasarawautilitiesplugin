@@ -6,10 +6,8 @@ if(!is_user_logged_in()) {
 
 get_header();
 
-require_once 'unirest-php/src/Unirest.php';
-
-
 use Unirest\Request\Body;
+use MtiiUtilities\TasksPerformer;
 Unirest\Request::verifyPeer(false);
 
 function generateRandomString($length = 10) {
@@ -24,7 +22,6 @@ function generateRandomString($length = 10) {
 $existing_reference = get_option('requestreference');
 $ref_to_use = '';
 $new_request_ref = generateRandomString();
-echo count($existing_reference);
 
 while (in_array($new_request_ref, $existing_reference)) {
     $new_request_ref = generateRandomString();
@@ -33,19 +30,6 @@ while (in_array($new_request_ref, $existing_reference)) {
 $existing_reference[] = $new_request_ref;
 update_option('requestreference', $existing_reference);
 
-// $revenue_head_id_all = array(
-//     "cooperative-soc"           => 112,
-//     "ngo-cbo"                   => 129,
-//     "business-premIs"           => 106,
-//     "fertilizer-lafia"          => 503,
-//     "fertilizer-akwanga"        => 504,
-//     "fertilizer-keffi"          => 505,
-//     "sacks-packaging-akwanga"   => 111,
-//     "beef-proc-masaka-karu"     => 506,
-//     "haulage-fee-collection"    => 138
-// );
-
-// openssl_decrypt($dstring, "AES-128-ECB", "secretecode")
 $revenue_head_id = 112;
 $amount_to_pay = 100000;
 
@@ -73,17 +57,10 @@ $data = array(
 
 $data_to_send = new ArrayObject($data);
 
+$task_performer = new TasksPerformer;
 
-// $client_id = "SECRETFORANOTHERUSE=";
-
-$client_id = get_option('live_or_staging')=='mtii_live' ? "SECRETFORANOTHERUSE"
-                : "SECRETFORANOTHERUSE=";
-
-$client_secret = get_option('live_or_staging')=='mtii_live' ? "SECRETFORANOTHERUSE"
-                : "SECRETFORANOTHERUSE";
-
-// $client_secret = "SECRETFORANOTHERUSE";
-
+$client_id = $task_performer->get_mtii_client_id();
+$client_secret = $task_performer->get_mtii_client_secret();
 $amount_to_hash = sprintf("%.2f", $amount_to_pay);
 $string_to_hash = $revenue_head_id.$amount_to_hash."https://mtii.josbiz.com/cbscburl".$client_id;
 
@@ -100,7 +77,7 @@ $body = Unirest\Request\Body::json($data_to_send);
 
 
 //please make sure to change this to production url when you go live
-$url = "https://uat.nasarawaigr.com/api/v1/invoice/create";
+$url = $task_performer->invoice_url;
 
 // Make `POST` request and handle response with unirest
 $response = Unirest\Request::post($url, $headers_to_send, $body);

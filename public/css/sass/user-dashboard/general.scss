@@ -87,6 +87,7 @@ CSS Loader
         width: 80px;
         height: 80px;
 }
+
 .lds-ring div {
     box-sizing: border-box;
     display: block;
@@ -100,6 +101,7 @@ CSS Loader
     animation: lds-ring 1s cubic-bezier(0.5, 0, 0.5, 1) infinite;
     border-color: #919191 transparent transparent transparent;
 }
+
 .lds-ring div:nth-child(1) {
     animation-delay: -0.45s;
 }
@@ -109,12 +111,161 @@ CSS Loader
 .lds-ring div:nth-child(3) {
     animation-delay: -0.15s;
 }
+
+.lds-ring.for-approval-detail{
+    position: absolute;
+    top: calc(50% - 50px) !important;
+    left: calc(50% - 30px);
+}
+
+#detail-info {
+    position: absolute;
+    top: 54%;
+    left: calc(50% - 120px);
+}
+
+.abs-align-centre {
+    text-align: center;
+    max-width: 300px;
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 150px);
+}
+
+.verify-first {
+    padding: 10px;
+    background: #fff;
+    font-size: 24px;
+    -webkit-box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.14);
+    -moz-box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.14);
+    box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.14);
+    color: #0050d9;
+}
+
+#search-wrapper {
+    background: #fff;
+    margin: 20px auto;
+    padding: 30px;
+    position: fixed;
+    top: -30px;
+    left: 0;
+    right: 0;
+    z-index: 9999999999999999999999999999999999999999999999;
+    display: none;
+}
+
+.long-wide-sharp {
+    border: 1px solid #b5b5b5 !important;
+    width: 100%;
+}
+
+#members-wrapper {
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.coop-member-list {
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #d5d5d5;
+    font-weight: 700;
+    cursor: default;
+}
+
+.coop-member-list.result {
+    font-style: italic;
+    color: #adadad;
+}
+
+.coop-member-list:first-of-type {
+    border-top: 1px solid #d5d5d5;
+}
+
+.coop-member-list:last-of-type {
+    border-bottom: 0;
+}
+
+.long-wide-sharp::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #b5b5b5 !important;
+    font-weight: 100 !important;
+    font-size: 20px !important;
+}
+.long-wide-sharp::-moz-placeholder { /* Firefox 19+ */
+    color: #b5b5b5 !important;
+    font-weight: 100 !important;
+}
+.long-wide-sharp:-ms-input-placeholder { /* IE 10+ */
+    color: #b5b5b5 !important;
+    font-weight: 100 !important;
+
+}
+.long-wide-sharp:-moz-placeholder { /* Firefox 18- */
+    color: #b5b5b5 !important;
+    font-weight: 100 !important;
+}
+
+#searched-details {
+    position: fixed;
+    left: 40px;
+    top: 40px;
+    width: 400px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: auto;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+}
+
+.detail-btn {
+    display: inline-block;
+    font-size: 14px;
+    background: #347ab3;
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.close-modal {
+    border: 1px solid #347ab3;
+    border-radius: 30px;
+    padding: 0 20px;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    color: #347ab3;
+    cursor: default;
+}
+
+.doc-title {
+    margin: 0;
+    margin-bottom: -16px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
 @keyframes lds-ring {
     0% {
         transform: rotate(0deg);
     } 100% {
         transform: rotate(360deg);
     }
+}
+
+@include medium-screen {
+    .lds-ring.dlarge {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .lds-ring.dlarge div {
+        width: 200px;
+        height: 200px;
+    }
+
 }
 
 @include large-screen {
@@ -129,5 +280,9 @@ CSS Loader
     .section-content {
         padding-left: 240px;
         padding-top: 30px;
+    }
+
+    #search-wrapper {
+        left: 240px;
     }
 }

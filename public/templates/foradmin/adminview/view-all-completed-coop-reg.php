@@ -10,8 +10,7 @@
  * @link       http://josbiz.com.ng
  * @since      1.0.0
  */
-require_once WP_CONTENT_DIR.'/plugins/mtii-utilities/public/class-mtii-registration-utilities.php';
-
+use MtiiUtilities\TasksPerformer;
 $args = array (
     'post_type'         => 'mtii_signed_uploads',
     'posts_per_page'    => 10,
@@ -39,8 +38,6 @@ global $mtii_db_coop_main_form;
             <p class="flexed-child">GSM NUMBER</p>
         </div>
         <?php
-        // $pagenumber = get_query_var( 'paged', 1 );
-        // $number = $pagenumber
         $i = 1;
         while ($all_docs->have_posts()) :
             $all_docs->the_post();

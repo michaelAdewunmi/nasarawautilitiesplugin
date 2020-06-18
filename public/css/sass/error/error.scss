@@ -6,6 +6,26 @@
     background: $color__danger;
 }
 
+.notification-text {
+    color: $color__blue;
+}
+
+.notification-bg {
+    background: $color__blue;
+}
+
+.success-text {
+    color: $color__brand;
+}
+
+.success-bg {
+    background: $color__brand;
+}
+
+.payment-err {
+    margin-bottom: 20px;
+}
+
 .notification-wrapper {
     width: 100%;
     max-width: 650px;

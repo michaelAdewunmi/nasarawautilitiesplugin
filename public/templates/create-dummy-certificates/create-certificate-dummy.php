@@ -4,7 +4,7 @@ if (!is_user_logged_in()  || !isset($_REQUEST["n"])) {
     exit;
 }
 
-if (isset($_REQUEST["catg"]) && $_REQUEST["catg"]==="cooperative") :
+if (isset($_REQUEST["catg"]) && ($_REQUEST["catg"]==="cooperative" || $_REQUEST["catg"]==="ngo")) :
     include_once "dummy-certificate-cooperative.php";
 elseif (isset($_REQUEST["catg"]) && $_REQUEST["catg"]==="biz_prem") :
     include_once "dummy-certificate-biz-prem.php";

@@ -7,7 +7,7 @@ function ordinal($number) {
         return $number. $ends[$number % 10];
 }
 
-$coop_info_json = openssl_decrypt($_REQUEST["n"], 'AES-128-ECB', 'SECRET');
+$coop_info_json = openssl_decrypt($_REQUEST["n"], 'AES-128-ECB', 'XJ34');
 $coop_info_decoded = json_decode($coop_info_json, true);
 
 $biz_name = isset($coop_info_decoded["biz_name"]) ? $coop_info_decoded["biz_name"] : '';
@@ -39,7 +39,7 @@ $coop_ref_no = '26/'.$lga_code.'/A94GQ/'.$id;
 
 $coop_name_lower_case = strtolower(str_replace(" ", "_", trim($biz_name)));
 
-if (urlencode($_REQUEST["n"]) != urlencode(openssl_encrypt(json_encode($coop_info), 'AES-128-ECB', 'SECRET'))
+if (urlencode($_REQUEST["n"]) != urlencode(openssl_encrypt(json_encode($coop_info), 'AES-128-ECB', 'XJ34'))
     || !isset($_REQUEST["catg"]) || $_REQUEST["catg"] != "biz_prem"
 ) {
     wp_redirect(site_url('/'));

@@ -51,8 +51,6 @@ $(document).ready(function() {
         loadWardsListFromLga(allLgas.val(), wardSelect);
     }
 
-    // const
-
     const addLeadingZero = (numb) => numb < 10 ? "0"+numb : numb;
     const hours12 = (date) => addLeadingZero((date.getHours() + 24) % 12) || 12;
     const amOrPm = (hr) => hr < 12 ? " AM" : " PM";
@@ -65,47 +63,36 @@ $(document).ready(function() {
     }, 1000);
 
     var allUploadsDiv = $(".coop-info-wrapper");
-    [...allUploadsDiv].forEach(upload=> {
-        /** The Commented Out portion below is presently under work. to enable the collapsing and shrinking look nice */
-        // const allInfo = $(upload).find(".inline-input");
-        // const infoArray = [];
-        // [...allInfo].forEach(info => {
-        //     //console.log(info)
-        //     infoArray.push($(info).prop('outerhtml '));
-        // })
-        // console.log(infoArray);
+    let searchParams = new URLSearchParams(window.location.search);
+    if (searchParams.has('do') && !searchParams.get('do')==="replacements") {
+        [...allUploadsDiv].forEach(upload=> {
+            const height = $(upload).height()
+            console.log(height);
+            $(upload).attr("dh", height);
+            $(upload).height("300");
+        })
 
-        // infoArray.forEach(info => {
-        //     console.log(info);
-        // })
-        // infoAsString = infoArray;
-        // $(upload).attr("info-data", infoAsString);
+        const arrowDown = $(".open-and-close-icon");
+        arrowDown.on("click", function(e) {
+            const btn = $(e.target);
+            const mainCoopWrapper = $(this).prev().find(".coop-info-wrapper");
+            const mainCoopWrapperHeight = mainCoopWrapper.height();
+            const mainCoopWrapperSavedHeight = mainCoopWrapper.attr("dh");
+            if( mainCoopWrapperHeight == "300") {
+                mainCoopWrapper.height(Number(mainCoopWrapperSavedHeight)+20);
+                btn.html("Click Here to Close").css({
+                    "bottom" : 10,
+                })
+            } else {
+                mainCoopWrapper.height("300");
+                btn.html("Click Here to Expand").css({
+                    "bottom" : 10,
+                })
+            }
+        })
+    }
 
-        const height = $(upload).height()
-        console.log(height);
-        $(upload).attr("dh", height);
-        $(upload).height("300");
-    })
 
-    const arrowDown = $(".open-and-close-icon");
-    arrowDown.on("click", function(e) {
-        const btn = $(e.target);
-        const mainCoopWrapper = $(this).prev().find(".coop-info-wrapper");
-        const mainCoopWrapperHeight = mainCoopWrapper.height();
-        const mainCoopWrapperSavedHeight = mainCoopWrapper.attr("dh");
-        if( mainCoopWrapperHeight == "300") {
-            mainCoopWrapper.height(Number(mainCoopWrapperSavedHeight)+20);
-            btn.html("Click Here to Close").css({
-                "bottom" : 10,
-            })
-        } else {
-            mainCoopWrapper.height("300");
-            btn.html("Click Here to Expand").css({
-                "bottom" : 10,
-            })
-        }
-
-    })
 
     const sideNav = $("#side-nav");
     const thesideNav = document.getElementById("side-nav");
@@ -132,8 +119,9 @@ $(document).ready(function() {
         sideNav.toggleClass("in-view");
     })
 
-    let searchParams = new URLSearchParams(window.location.search);
     const arrowDownNav = $(".arrow-down");
+    //console.log(isNotNgoDirector());
+
     if (searchParams.has('do') && searchParams.get('do')==="reg"
     ) {
         const ArrowElem = $(arrowDownNav[1]);
@@ -143,12 +131,25 @@ $(document).ready(function() {
         const ArrowElem = $(arrowDownNav[0]);
         ArrowElem.addClass("children-in-view");
         expandParentNav(ArrowElem, ArrowElem.context.nextElementSibling);
-    } else if (searchParams.has('do') && searchParams.get('do')==="approve") {
+    }  else if (!isNotNgoDirector() && searchParams.has('do') && searchParams.get('do')==="replacements") {
+        const ArrowElem = $(arrowDownNav[1]);
+        ArrowElem.addClass("children-in-view");
+        expandParentNav(ArrowElem, ArrowElem.context.nextElementSibling);
+    }   else if (!isNotNgoDirector() && searchParams.has('do') && searchParams.get('do')==="legal-search") {
         const ArrowElem = $(arrowDownNav[2]);
         ArrowElem.addClass("children-in-view");
         expandParentNav(ArrowElem, ArrowElem.context.nextElementSibling);
+    } else if (searchParams.has('do') && searchParams.get('do')==="approve") {
+        const ArrowElem = $(arrowDownNav[0]);
+        ArrowElem.addClass("children-in-view");
+        expandParentNav(ArrowElem, ArrowElem.context.nextElementSibling);
     } else if (searchParams.has('do') && searchParams.get('do')==="adminview") {
-        const ArrowElem = $(arrowDownNav[3]);
+        if (isNotNgoDirector()) {
+            var navIndex = 1;
+        } else {
+            var navIndex = 3;
+        }
+        const ArrowElem = $(arrowDownNav[navIndex]);
         ArrowElem.addClass("children-in-view");
         expandParentNav(ArrowElem, ArrowElem.context.nextElementSibling);
     }
@@ -211,6 +212,10 @@ $(document).ready(function() {
         //     landLordAddress.slideUp().find("input").val("")
         // }
     })
+
+    function isNotNgoDirector() {
+        return window.isNotNgoDirector && window.isNotNgoDirector==='Yes' ? true : false;
+    }
 
     function checkIfApartmentIsRentedChange(val=null) {
         val = val ? val : $("#is-premise-rented").val();

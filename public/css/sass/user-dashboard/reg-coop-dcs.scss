@@ -4,7 +4,7 @@ body .inline-input input.mtii-inline-input {
     height: auto !important;
     margin-top: 0 !important;
     margin-bottom: 0 !important;
-    border-bottom: 1px solid $color__brand !important;
+    //border-bottom: 1px solid $color__brand !important;
     padding: 5px !important;
     height: auto;
     width: 100%;
@@ -48,18 +48,17 @@ body .inline-input input.mtii-inline-input.main-form {
 }
 
 body .inline-input input.mtii-inline-input.errored {
-    border-bottom: 1px solid red!important;
-    border-left: 1px solid red !important;
+    border: 2px solid red !important;
 }
 
-body .inline-input.flexed-child input.mtii-inline-input.errored {
-    border-right: 1px solid red;
-    border-top: 1px solid red;
+body .inline-input.flexed-child input.mtii-inline-input.errored,
+body input.mtii-inline-input.main-form.errored {
+    border: 2px solid red;
 }
 
 body .inline-input.flexed-child input.mtii-inline-input {
     margin-right: 10px;
-    border: 1px solid #00aa55;;
+    border: 1px solid #00aa55;
 }
 
 body .inline-input.flexed-child input.mtii-inline-input::placeholder {
@@ -81,15 +80,35 @@ span.as-placeholder {
 
 .main-form.mtii-select {
     display: inline-block;
+    max-width: 300px;
+}
+
+.main-form.mtii-select.reduced-width {
+    max-width: 100% !important;
 }
 
 .main-form.mtii-select.errored {
-    border: 1px solid red;
+    border: 2px solid red;
 }
+
+.main-form.mtii-select.full-border {
+    border: 1px solid green;
+    max-width: 360px;
+}
+
+body input.mtii-inline-input.main-form.show-border {
+    border: 1px solid green;
+    width: 500px;
+}
+
+body input.mtii-inline-input.main-form.show-border.errored {
+    border-color: red;
+}
+
 
 @media screen and (min-width: 320px) {
     body .inline-input input.mtii-inline-input.main-form {
-        width: 160px;
+        width: 360px;
     }
 }
 
@@ -106,7 +125,6 @@ span.as-placeholder {
         border-bottom: 0;
     }
 }
-
 
 @include small-medium-screen {
     .form-heading {
@@ -127,6 +145,6 @@ span.as-placeholder {
     }
 
     #dcs-form-body {
-        margin-top: 200px;
+        margin-top: 80px;
     }
 }

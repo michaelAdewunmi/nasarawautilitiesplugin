@@ -6,5 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'MtiiUtilities\\' => array($baseDir . '/includes', $baseDir . '/public', $baseDir . '/admin'),
+    'Psr\\SimpleCache\\' => array($vendorDir . '/psr/simple-cache/src'),
+    'PhpOffice\\PhpSpreadsheet\\' => array($vendorDir . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet'),
+    'MtiiUtilities\\' => array($baseDir . '/includes', $baseDir . '/admin', $baseDir . '/public/classes'),
+    'Matrix\\' => array($vendorDir . '/markbaker/matrix/classes/src'),
+    'Complex\\' => array($vendorDir . '/markbaker/complex/classes/src'),
 );

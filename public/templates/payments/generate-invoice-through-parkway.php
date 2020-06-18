@@ -14,26 +14,34 @@
  * @since      1.0.0
  */
 
-require_once WP_CONTENT_DIR . '/plugins/mtii-utilities/lib/unirest-php/src/Unirest.php';
-require_once WP_CONTENT_DIR . '/plugins/mtii-utilities/public/class-mtii-utilities-invoice-data-generator.php';
-require_once WP_CONTENT_DIR . '/plugins/mtii-utilities/public/class-mtii-utilities-task-performer.php';
-require_once WP_CONTENT_DIR . '/plugins/mtii-utilities/public/class-mtii-utilities-error-output.php';
-
 use Unirest\Request\Body;
+use MtiiUtilities\GenerateInvoiceData;
+use MtiiUtilities\TasksPerformer;
+use MtiiUtilities\OutputErrors;
+
 Unirest\Request::verifyPeer(false);
 if (isset($_POST["submit"])) {
     if (!isset($_REQUEST['cbs_return']) && wp_verify_nonce($_POST['user_invoice_nonce'], 'user_invoice_nonce')) {
 
         $errors_array = array();
         if (!isset($_POST["payee_names"]) || !isset($_POST["payee_email"]) || !isset($_POST["payee_address"])
-            || !isset($_POST["payee_phone"]) || !isset($_POST["payee_tax_number"]) || trim($_POST["payee_names"])==''
+            || !isset($_POST["payee_phone"]) || trim($_POST["payee_names"])==''
             || trim($_POST["payee_email"])=='' || trim($_POST["payee_address"])=='' || trim($_POST["payee_phone"])==''
-            || trim($_POST["payee_tax_number"])=='' || trim($_POST["payment-type"])==''
+            || (isset($_POST["payee_tax_number"]) && trim($_POST["payee_tax_number"])=='')
+            || (isset($_POST["payment-type"]) && trim($_POST["payment-type"])=='')
+            || (isset($_POST["payment_fee_user_typed"]) && $_POST["payment_fee_user_typed"]=='')
+            || (isset($_POST["purpose_of_payment"]) && $_POST["purpose_of_payment"]=='')
+            || (isset($_POST["senatorial_zone"]) && $_POST["senatorial_zone"]=='')
+            || (isset($_POST["payee_organization"]) && $_POST["payee_organization"]=='')
+            || (isset($_POST["plant_location"]) && $_POST["plant_location"]=='')
         ) {
             $errors_array["general"] = "All Fields are compulsory! Please ensure all fields are filled and then try again";
+        } else if (isset($_POST["payment_fee_user_typed"]) && !is_numeric($_POST["payment_fee_user_typed"])) {
+            $errors_array["general"] = "Amount should be strictly Numbers. please remove any comma or special character";
         } else {
+            $payment_type = isset($_POST["payment-type"]) ? trim($_POST["payment-type"]) : null;
             if (isset($_REQUEST['catg'])) {
-                $data_to_generate = new Generate_Invoice_Data_For_Api_Request(urlencode($_REQUEST['catg']), $_POST['payment-type']);
+                $data_to_generate = new GenerateInvoiceData(urlencode($_REQUEST['catg']), $payment_type);
             } else {
                 echo die(
                     '<script>window.location.href="'.

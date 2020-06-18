@@ -10,19 +10,9 @@
  * @link       http://josbiz.com.ng
  * @since      1.0.0
  */
-
-require_once WP_CONTENT_DIR . '/plugins/mtii-utilities/public/class-mtii-utilities-task-performer.php';
 require_once 'registration-processes.php';
-?>
 
-<div class="section-body">
-    <h2 class="section-heading">Registrations</h2>
-    <hr class="header-lower-rule" />
-    <?php
-    if ($query_param=='reg' && ($query_param_catg==$coop)) :
-        include_once "reg-cooperative/reg-coop-base.php";
-    elseif ($query_param=='reg' && ($query_param_catg==$biz_prem)) :
-        include_once "reg-business-premise/reg-bp-base.php";
-    endif;
-    ?>
+use MtiiUtilities\TasksPerformer;
+$tasks_performer = new TasksPerformer;
+?>
 </div>
